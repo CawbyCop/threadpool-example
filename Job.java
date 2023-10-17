@@ -1,6 +1,7 @@
-public class Job Implements Runnable {
+public class Job implements Runnable {
   private int jobNumber;
-  Job (Int jobNumber) {
+
+  Job (int jobNumber) {
     this.jobNumber = jobNumber;
   }
 
